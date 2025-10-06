@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Account Application Form</title>
+
+  <a href="C:\Users\hp\Desktop\IT Sem 1\FavoriteLanguage.html">🔙Back</a>
+
+  <style>
+    body {
+      background-color: black;
+      font-family: Arial, sans-serif;
+      color: blue;
+      margin: 30px;
+    }
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+    }
+    form {
+      border: 1px solid red;
+      padding: 20px;
+      width: 600px;
+      margin: auto;
+      background-color: lightblue;
+    }
+    label {
+      display: inline-block;
+      width: 150px;
+      margin-top: 10px;
+    }
+    input, select, textarea {
+      margin-top: 10px;
+    }
+    .section {
+      margin-top: 20px;
+    }
+    .terms {
+      margin-top: 30px;
+      font-size: 14px;
+      text-align: justify;
+    }
+    button {
+       background : blue;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Bank Account Application Form</h2>
+  <form>
+        <form action="https://formspree.io/f/xyznjyde" method="post">
+  
+
+    <p>Create your bank account by filling in this bank account registration form. All mandatory fields are marked with an asterisk(*).</p>
+
+    <label for="title">Title*</label><br>
+    <select id="title" name="title" required>
+      <option>Mr.</option>
+      <option>Mrs.</option>
+      <option>Miss</option>
+      <option>Dr.</option>
+    </select><br>
+
+    <label for="fname">First Name*</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+
+    <label for="mname">Middle Name*</label><br>
+    <input type="text" id="mname" name="mname"><br>
+
+    <label for="lname">Last Name*</label><br>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <label for="phone No.">Phone Number*</label><br>
+    <input type="tel" id="number" name="number" required><br>
+
+    <label for="email">E-mail</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="dob">Date of Birth*</label><br>
+    <input type="date" id="dob" name="dob" required><br>
+
+    <label for="occupation">Occupation</label><br>
+    <input type="text" id="occupation" name="occupation"><br>
+
+    <div class="section">
+      <label>Enter Your Gender*</label><br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+    </div>
+
+      <div class="section">
+      <label>Marital Status*</label><br>
+      <select name="marital" required>
+        <option>Single</option>
+        <option>Married</option>
+        <option>Divorced</option>
+        <option>Widowed</option>
+      </select>
+    </div>
+
+    <div class="section">
+      <label>Account Type*</label><br>
+      <select name="account" required>
+        <option>Savings</option>
+        <option>Current</option>
+        <option>Fixed Deposit</option>
+      </select>
+    </div>
+
+    <div class="section">
+      <label>Citizenship*</label><br>
+      <select name="citizenship" required>
+        <option>Indian</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div class="section">
+      <label for="address">Enter Your Address*</label><br>
+      <textarea id="address" name="address"  required></textarea>
+    </div>
+
+    <div class="terms">
+      <a href="C:\Users\hp\Documents\Terms & Conditions.html">Terms & Condition</a><br>
+      <input type="checkbox" required> I agree to the terms of the service*
+    </div>
+
+    <div class="submit">
+      <input type="button" value="Submit">
+    </div>
+  </form>
+
+</body>
+</html>
