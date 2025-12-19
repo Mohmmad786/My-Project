@@ -19,5 +19,3 @@ for i in range(6,1,-1):
 # 0 ; 10 range
 for i in range(0, 10):
     print(i)
-
-
